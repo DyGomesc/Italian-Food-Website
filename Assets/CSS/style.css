@@ -1,0 +1,26 @@
+:root{
+    --white-color: #ffffff;
+    --gray-color: #f2f3f8;
+    --icons-color: #f9b129;
+    --buttons-color: #ec5453;
+    --primary-color: #24201d;
+    --gap: 3rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
