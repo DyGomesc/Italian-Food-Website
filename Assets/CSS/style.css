@@ -30,7 +30,7 @@ h1, h2, h3, h4{
 }
 
 .bg-white{
-    color: var(--white-color);
+    background-color: var(--white-color);
 }
 
 .bg-light-gray{
@@ -38,8 +38,15 @@ h1, h2, h3, h4{
 }
 
 .main-content{
-    max-width: 120rem;
+    max-width: 180rem;
     margin: 0 auto;
+}
+
+.full-content{
+    width: 100%;
+    margin: 0;
+
+
 }
 
 .menu{
@@ -65,9 +72,8 @@ h1, h2, h3, h4{
 }
 
 .logo-img a img{
-    max-width: 15rem;
+    max-width: 13rem;
     height: auto;
-    padding-top: 2rem;
 }
 
 .menu ul{
@@ -79,5 +85,35 @@ h1, h2, h3, h4{
     display: block;
     padding: 1.8rem;
     text-decoration: none;
-    
+    color: var(--primary-color);    
+}
+
+.section-100{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:initial;
+}
+
+.slider-banner{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 80vh;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide img{
+    width:60% ;
+    height: auto;
 }
